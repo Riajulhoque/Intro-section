@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+body{
+  width: 1170px;
+  height: 700px;
+}
+.nav .img{
+  width: 20%;
+  height: 80px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
+.manu { 
+  width: 80%;
+
+}.manu .icon{
+  margin-left: auto;
+}
+.manu .icon ul li {
+ display: inline-block;
+ margin: 30px 25px;
+}
+.manu .icon ul li a{
+  color: black;
+  padding: 15px;
+  transition: 0.5;
+  border: 3px solid white;
+}
+.manu .icon ul li:hover a{
+  /* background-color: antiquewhite; */
+  border: 3px solid black;
+  border-radius: 10px ;
+
+}
+.nav .manu-bar ul li {
+  display: inline-block;
+ position: relative;
+ margin: 30px 25px;
+}
+ .nav .manu-bar ul li a {
+  color: black;
+  padding: 15px ;
+  border: 3px solid white;
+ }
+ .nav .manu-bar ul li:hover > a{
+  border:3px solid black;
+  border-radius: 10px ;
+
+ }
+.nav .manu-bar ul li ul {
+  position: absolute;
+  display: inline-block;
+  margin: 5px 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nav .manu-bar ul li:hover  ul{
+  visibility:visible ;
+  opacity: 1;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.container .text {
+  width: 40%;
+  margin-left: 60px;
+ 
+}
+.text h1{
+  font-family: 'Epilogue';
+  font-weight: 700;
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 100px;
+ 
+}
+p{
+  font-family: 'Epilogue';
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 40px;
+  color: hsl(0, 0%, 41%);
+}
+.text a{
+  padding: 15px 30px;
+  background-color: black;
+  border-radius: 15px;
+  color: aliceblue;
+  margin-top: 100px;
+  display: inline-block;
+}
+ .text a:hover {
+  background-color: aliceblue;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container .img img{
+  width: 520px;
+  height: 620px;
+}
+.container .img{
+  margin-left: auto;
+}
+.img img{
+  margin-left:30px ;
+}
+
+
